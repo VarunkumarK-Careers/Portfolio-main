@@ -1,0 +1,33 @@
+<header class="header">
+    <a href="#" class="logo">Varun Automates It ⚡</a>
+    
+    <!-- Hamburger Menu Button -->
+    <div class="hamburger" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="navbar">
+        <a (click)="navigateTo('home', $event)">Home</a>
+        <a (click)="navigateTo('about', $event)">About</a>
+        <a (click)="navigateTo('experience', $event)">Experience</a>
+        <a (click)="navigateTo('skills', $event)">Skills</a>
+        <a (click)="navigateTo('projects', $event)">Projects</a>
+        <a (click)="navigateTo('contact', $event)">Contact</a>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-navbar" [class.active]="isMenuOpen">
+        <a (click)="navigateTo('home', $event); closeMenu()">Home</a>
+        <a (click)="navigateTo('about', $event); closeMenu()">About</a>
+        <a (click)="navigateTo('experience', $event); closeMenu()">Experience</a>
+        <a (click)="navigateTo('skills', $event); closeMenu()">Skills</a>
+        <a (click)="navigateTo('projects', $event); closeMenu()">Projects</a>
+        <a (click)="navigateTo('contact', $event); closeMenu()">Contact</a>
+    </nav>
+
+    <!-- Backdrop for mobile menu -->
+    <div class="menu-backdrop" [class.active]="isMenuOpen" (click)="closeMenu()"></div>
+</header>
