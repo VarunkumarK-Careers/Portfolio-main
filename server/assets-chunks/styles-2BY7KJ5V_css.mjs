@@ -1,0 +1,2 @@
+export default `*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}body{color:#9c6d07;background:radial-gradient(circle at 80% 40%,#0a192f,#725e32 80%);min-height:100vh}a{transition:color .3s,background .3s}img{display:block;max-width:100%;height:auto}
+`;
