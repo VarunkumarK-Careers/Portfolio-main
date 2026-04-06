@@ -18,11 +18,11 @@ export class SkillsComponent {
     { name: 'Cucumber', stars: 4 },
     { name: 'Jira', stars: 4 },
     { name: 'AWS', stars: 3 },
-    { name: 'Playwright', stars: 2 },
-    { name: 'TypeScript', stars: 2 },
+    { name: 'Playwright', stars: 3.5 },
+    { name: 'TypeScript', stars: 3.5 },
     { name: 'BitBucket', stars: 4 },
     { name: 'Jenkins', stars: 3 },
     { name: 'BrowserStack', stars: 4 },
-    { name: 'Extent Reports', stars: 4 },
+    { name: 'Postman', stars: 2.5 },
   ];
 }
